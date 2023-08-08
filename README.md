@@ -19,5 +19,9 @@ Links to the Backend:
 ![GitHub language count](https://img.shields.io/github/languages/count/luandretta/worth-a-trip-drf?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/luandretta/worth-a-trip-drf?style=for-the-badge)
 
+## Library
+
+- React Router 
+To control what the user sees depending on the URL they have accessed in the browser.
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
