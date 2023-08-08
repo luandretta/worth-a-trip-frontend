@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    max-width: 2500px;
+}
+
+.App {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
