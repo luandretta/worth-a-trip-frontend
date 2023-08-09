@@ -24,4 +24,7 @@ Links to the Backend:
 - React Router 
 To control what the user sees depending on the URL they have accessed in the browser.
 
+- Axios
+To tell the React project to send requests to the API 
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
