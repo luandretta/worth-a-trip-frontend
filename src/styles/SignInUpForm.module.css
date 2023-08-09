@@ -1,5 +1,5 @@
 .Row {
-    height: calc(100vh - 81px);
+    height: calc(100vh - 90px);
   }
   .Input {
     background: #ffffff;
@@ -19,7 +19,7 @@
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #2142b2;
+    color: #1B4066;
   }
   
   .Link {
@@ -30,7 +30,7 @@
   }
   
   .Link span {
-    color: #ff9254;
+    color: #116c69;
   }
   
   .Container {
