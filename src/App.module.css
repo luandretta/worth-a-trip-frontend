@@ -10,7 +10,7 @@
 }
 
 .Main {
-    padding-top: 110px;
+    padding-top: 90px;
   }
   
   .Content {
@@ -46,7 +46,7 @@
   }
   
   a:hover i {
-    color: #2142b2;
+    color: #1B4066;
     transition: color ease-in-out 0.3s;
   }
   
@@ -64,7 +64,7 @@
   i:hover {
     cursor: pointer;
     transition: color ease-in-out 0.3s;
-    color: #2142b2;
+    color: #1B4066;
   }
   
   figure {
