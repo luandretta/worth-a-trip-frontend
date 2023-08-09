@@ -1,13 +1,13 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
 
-import { Form, Button, Image, Col, Row, Container } from "react-bootstrap";
+import { Form, Button, Image, Col, Row, Container, Alert } from "react-bootstrap";
 import axios from "axios";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+
 
 const SignUpForm = () => {
   const [signUpData, setSignUpData] = useState({
@@ -17,14 +17,15 @@ const SignUpForm = () => {
   });
   const { username, password1, password2 } = signUpData;
 
-  conts [errors, setErrors] = useState({})
+  const [errors, setErrors] = useState({})
 
   const history = useHistory();
 
   const handleChange = (event) => {
     setSignUpData({
       ...signUpData,
-      [event.target.name]: event.target.value,
+      // Triming any whitespace
+      [event.target.name]: event.target.value.trim(),
     });
   };
 
@@ -116,7 +117,7 @@ const SignUpForm = () => {
         <Image
           className={`${appStyles.FillerImage}`}
           src={
-            "https://res.cloudinary.com/dtqse76ok/image/upload/v1691572624/Worth_a_trip_2_w5fios.png"
+            "https://res.cloudinary.com/dtqse76ok/image/upload/v1691584889/Worth_a_trip2_3_hcnbw2.png"
           }
         />
       </Col>
