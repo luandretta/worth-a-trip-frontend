@@ -68,6 +68,13 @@ The Agile Tool was used to help to organize and prioritize the tasks using Proje
 
 # Tests
 
+## Bugs
+
+| N. | Issue | Action | Screenshots | Status | 
+| ---- | ------- | ------ | ------ |  ------ |
+| 01 | ------- | ------ | ------ |  ------ |
+| 02 | Placeholder from Password input in the Sign In Form with a comma | Comma was removed from string| ------ | PASS |
+
 # Libraries, contexts and hooks:
 
 - React Bootstrap - ![React-bootstrap](https://react-bootstrap-v4.netlify.app/)
